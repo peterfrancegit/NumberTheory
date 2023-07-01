@@ -1,7 +1,7 @@
 from numberTheoryFunctions import *
 
-run = True
-while run == True:
+run = False
+while run is True:
     print("What would you like to do?")
     print("1) Calculate floor of a real number")
     print("2) Calculate ceiling of a real number")
@@ -14,7 +14,7 @@ while run == True:
         print("You have chosen floor.")
         print("Enter a real number:")
         x = float(input())
-        print("The floor of ", x," is ", FLOOR(x))
+        print("The floor of ", x, " is ", FLOOR(x))
     elif num == "2":
         print("You have chosen ceiling.")
         print("Enter a real number:")
