@@ -1,6 +1,6 @@
 from numberTheoryFunctions import *
 
-run = False
+run = True
 while run is True:
     print("What would you like to do?")
     print("1) Calculate floor of a real number")
@@ -14,26 +14,26 @@ while run is True:
         print("You have chosen floor.")
         print("Enter a real number:")
         x = float(input())
-        print("The floor of ", x, " is ", FLOOR(x))
+        print("The floor of ", x, " is ", floor(x))
     elif num == "2":
         print("You have chosen ceiling.")
         print("Enter a real number:")
         x = float(input())
-        print("The ceiling of ", x," is ", CEILING(x))
+        print("The ceiling of ", x, " is ", ceiling(x))
     elif num == "3":
         print("You have chosen GCD.")
         print("Enter first integer:")
         x = int(input())
         print("Enter second integer:")
         y = int(input())
-        print("The greatest common divisor of ", x, " and ", y, " is ", GCD(x,y))
+        print("The greatest common divisor of ", x, " and ", y, " is ", gcd(x, y))
     elif num == "4":
         print("You have chosen LCM.")
         print("Enter first integer:")
         x = int(input())
         print("Enter second integer:")
         y = int(input())
-        print("The lowest common multiple of ", x, " and ", y, " is ", LCM(x,y))
+        print("The lowest common multiple of ", x, " and ", y, " is ", lcm(x, y))
     elif num == "5":
         run = False
     else:

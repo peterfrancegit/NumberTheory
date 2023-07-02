@@ -1,2 +1,6 @@
 # number_theory
-A program for calculating number theoretic values
+A basic program for calculating number theoretic values:
+* Floor
+* Ceiling
+* GCD
+* LCM
